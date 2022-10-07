@@ -7,7 +7,7 @@ html {
 
 .main-content {
   position: relative;
-  top: 5.3125rem; /* To offset for fixed header. */
+
   
 }
 
@@ -40,10 +40,6 @@ html {
 
 
 .content{
-  font-size: 50px;
-  margin-left: 30px;
-  width: 100%;
-
 
 
 }
@@ -69,9 +65,10 @@ header .logo {
   flex: 1;
   font-family: "Roboto" monospace;
   font-size: 24px;
-  align-items: flex-start;
+  text-align: left;
   margin: 0px;
   padding: 0px;
+  color: #4a4a4a;
 
 
 }
@@ -148,6 +145,7 @@ header .mobile {
   background-image: url("../../resources/images/banner-landingpage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: bottom;
 }
 
 #sign-up-cta {
@@ -155,6 +153,9 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  margin-left: 100px;
+  margin-top: 170px;
+  margin-bottom: 170px;
 }
 
 #sign-up-cta .content {
